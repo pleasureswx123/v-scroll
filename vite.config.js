@@ -62,6 +62,7 @@ const cssToJsPlugin = () => {
 }
 
 export default {
+  base: '/v-scroll/',
   plugins: [cssToJsPlugin()],
   build: {
     outDir: 'dist',
